@@ -35,17 +35,12 @@ class Header extends Component {
           <Container >
             <Link to={ROUTE_HOME} className="mr-auto navbar-brand">
               <div className="logo">
-               <img src="./public/favicon.ico" height="30" width="30"></img>  {APP_NAME}
+               <img src='https://i.ibb.co/jWBqTFX/2.png' height={30} width={30}></img>  {APP_NAME}
               </div>
             </Link>
 
-            <ThemeConsumer>
-              <ThemeSwitcher />
-            </ThemeConsumer>
-            {!collapsed ?
-              <Menu onClick={this.toggleNavbar} className="mr-2 ml-3 ml-sm-5" />
-              :
-              <Close onClick={this.toggleNavbar} className="mr-2 ml-3 ml-sm-5" />}
+           
+            
           </Container >
         </Navbar>
 
