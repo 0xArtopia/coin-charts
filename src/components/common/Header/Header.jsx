@@ -35,7 +35,7 @@ class Header extends Component {
           <Container >
             <Link to={ROUTE_HOME} className="mr-auto navbar-brand">
               <div className="logo">
-               <img src="https://serene-leakey.45-76-228-54.plesk.page/ib/S2ubqRkEZI.gif" height="30" width="30"></img>  {APP_NAME}
+               <img src="./public/favicon.ico" height="30" width="30"></img>  {APP_NAME}
               </div>
             </Link>
 
